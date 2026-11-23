@@ -156,6 +156,8 @@ Render's Free-tier Web Service uses an **ephemeral filesystem**: whenever a cont
 | :--- | :--- | :--- | :--- |
 | `GOOGLE_API_KEY` | **Yes** | `AIzaSy...` | Google Gemini API key for Generator & Evaluator LLMs |
 | `PYTHONDONTWRITEBYTECODE` | **Yes** | `1` | Prevents `__pycache__` creation in the container |
+| `GEMINI_MODEL` | Optional | `gemini-2.5-flash` | Primary Gemini model identifier |
+| `GEMINI_FALLBACK_MODELS` | Optional | `gemini-2.5-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite` | Ordered failover chain when a model returns HTTP 503/429 |
 | `PUSHOVER_USER` | Optional | `u12345...` (30 chars) | Pushover User Key for real-time lead/question notifications |
 | `PUSHOVER_TOKEN` | Optional | `a12345...` (30 chars) | Pushover Application API Token |
 | `PUSHOVER_ENABLED` | Optional | `true` (`false` to disable) | Feature toggle; falls back cleanly to `NullNotifier` when `false` |
