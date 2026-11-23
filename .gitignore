@@ -2,3 +2,8 @@
 leads.txt
 leads.jsonl
 unanswered_questions.jsonl
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
