@@ -2,17 +2,20 @@
 
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Pydantic v2](https://img.shields.io/badge/Pydantic-v2%20Strict-E92063?logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
-[![Gemini OpenAI SDK](https://img.shields.io/badge/LLM-Gemini%203.1%20Flash%20Lite-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
+[![Gemini OpenAI SDK](https://img.shields.io/badge/LLM-Gemini%202.5%20Flash%20%2B%20Failover-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
 [![Gradio UI](https://img.shields.io/badge/UI-Gradio%206%20ChatInterface-FF7C00)](https://www.gradio.app/)
-[![Deploy to Render](https://img.shields.io/badge/Deploy-Render%20Web%20Service-46E3B7)](https://render.com/)
+[![Live Demo on Render](https://img.shields.io/badge/Live%20Demo-ajhar--digital--twin.onrender.com-46E3B7?logo=render&logoColor=white)](https://ajhar-digital-twin.onrender.com/)
 
 **Author:** MD Ajharul Islam Akanda (Ajhar) — *AI Automation Engineer, Full-Stack Backend Engineer & Technical Product Manager*
+
+> 🚀 **Live Interactive Application:** [**https://ajhar-digital-twin.onrender.com/**](https://ajhar-digital-twin.onrender.com/)
+> *(Hosted on Render Cloud — enables prospective clients, agency owners, and technical recruiters to interact directly with Ajhar's AI Digital Twin in real time. Note: If the instance has been idle, the initial cold-start wake-up takes ~30–50 seconds.)*
 
 ---
 
 ## 1. Executive Summary
 
-`ajhar_digital_twin` is a production-hardened **AI Automation Business Assistant & Digital Twin** engineered for Ajhar's consultancy website and structured for cloud deployment on **Render**.
+`ajhar_digital_twin` is a production-hardened **AI Automation Business Assistant & Digital Twin** engineered for Ajhar's consultancy website and deployed live on **Render** at [**https://ajhar-digital-twin.onrender.com/**](https://ajhar-digital-twin.onrender.com/).
 
 Unlike naive single-prompt wrappers that suffer from prompt drift, unvalidated tool calls, or hallucinated credentials, this application implements a **Bounded Autonomous Tool-Calling Agent Loop** guarded by an independent **Multi-LLM Evaluator-Optimizer Pipeline** and backed by a **Fail-Open Pushover Real-Time Notification Layer**.
 
@@ -144,6 +147,8 @@ Render's Free-tier Web Service uses an **ephemeral filesystem**: whenever a cont
 ---
 
 ## 6. Deploying to Render (`render.com`)
+
+- **Live Production URL:** [**https://ajhar-digital-twin.onrender.com/**](https://ajhar-digital-twin.onrender.com/)
 
 1. Push this repository to GitHub / GitLab.
 2. In the Render Dashboard, click **New +** -> **Web Service** and connect your repository:
